@@ -1,0 +1,13 @@
+.news-title{
+    font-family: Christmas-font;
+    font-size: 60px;
+    margin: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@font-face{
+    font-family: Christmas-font;
+    src: url("src/ChristmasReignPersonal.ttf") format('opentype');
+}
