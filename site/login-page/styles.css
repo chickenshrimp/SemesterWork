@@ -22,12 +22,15 @@
     outline: 0;
 }
 
-.info-box{
-    background: url("https://gamelandvn.com/wp-content/uploads/anh/2022/01/enkanomiya-thumbnail.jpg");
-    max-width: 60%;
-    height: 400px; 
-    margin: auto;
+.info-box{ 
+    max-width: 65%;
+    height: 480px; 
     justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background-image: url('src/background-pic.jpg');
+    border-radius: 3px;
 }
 
 .inside{

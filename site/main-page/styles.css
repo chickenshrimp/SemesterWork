@@ -67,6 +67,22 @@
     letter-spacing: 2px;
 }
 
+.log-into{
+    border-radius: 13px;
+    font-family: Serifiqo;
+    background-color: #A0E8E5;
+    font-size: 25px;
+    font-weight: 800;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
 .container-checkbox{
     margin: 3px;
     cursor: pointer;

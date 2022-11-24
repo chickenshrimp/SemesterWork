@@ -16,20 +16,21 @@
             Королевства<br></div>
         </div>
         
-        <div class="input-login-and-password" style="flex-direction: column; margin-top: 7%;">
+        <div class="input-login-and-password" style="flex-direction: column; margin-top: 4%;">
             <div class="input-text">ВАШ ЛОГИН</div>
-            <div class="input-placeholder"><input type="text" class="login"></div>
+            <div class="input-placeholder"><input type="text" class="login" id="log"></div>
             <div class="input-text">ПАРОЛЬ</div>
-            <div class="input-placeholder"><input type="password" class="pass"></div>
-            <div class="dont-forget"></div><label class="container-checkbox"><div class="input-text" style="font-size: 15px;">Запомнить меня</div>
+            <div class="input-placeholder"><input type="password" class="pass" id="passWord"></div>
+            
+            <label class="container-checkbox"><div class="input-text" style="font-size: 15px;">Запомнить меня</div>
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
-            </label></div>
+            </label>
+            <button class="log-into" id="li">Войти</button>
+            
         </div>
-        <script type="module" src="/news-page/index.js"></script>
-        <script type="module">
-            import module from '/main-page/index.js';
-            module();
-        </script>
+        
     </body>
+
+    <script src="/main-page/index.js"></script>
 </html>
