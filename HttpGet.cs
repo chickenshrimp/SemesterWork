@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace SemesterWork
 {
-    internal class Class1
+    public class HttpGet
     {
+        public string MethodURI;
+
+        public HttpGet(string methodUri)
+        {
+            MethodURI = methodUri;
+        }
     }
 }

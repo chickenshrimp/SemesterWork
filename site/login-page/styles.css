@@ -1,0 +1,49 @@
+.greetings{
+    font-size: 45px;
+    font-family: Christmas-font;
+    color: #dadada;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    margin-right: 50px;
+}
+
+.card{
+    background-color: #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 3px;
+    outline: 0;
+}
+
+.info-box{
+    background: url("https://gamelandvn.com/wp-content/uploads/anh/2022/01/enkanomiya-thumbnail.jpg");
+    max-width: 60%;
+    height: 400px; 
+    margin: auto;
+    justify-content: center;
+}
+
+.inside{
+    background-color: aliceblue;
+    opacity: 0.85;
+    border-radius: 13px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 500px;
+}
+
+@font-face {
+    font-family: Christmas-font;
+    src: url("src/ChristmasReignPersonal.ttf") format('opentype');
+}

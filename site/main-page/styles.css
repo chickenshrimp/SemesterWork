@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+.news{
+    font-family: Serifiqo;
+    font-size: 26px;
+    color: #dadada;
+    cursor: pointer;
+    background-color: transparent;
+    float: right;
+    margin-top: 2%;
+    margin-right: 4%;
+    font-weight: 600;
+}
+
+.bank-logo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7%;
+    letter-spacing: 4px;
+}
+
+.bank-name{
+    font-family: Christmas-font;
+    margin: auto;
+    font-size: 60px;
+    color: #dadada;
+    background-color: transparent;
+}
+
+.cryo-pic{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.input-placeholder{
+    display: flex;
+    margin: 1%;
+    justify-content: center;
+}
+
+.login, .pass{
+    border-radius: 13px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    background-color: #dadada;
+    height: 30px;
+    width: 250px;
+    letter-spacing: 1px;
+}
+
+.input-text{
+    justify-content: center;
+    display: flex;
+    font-family: Serifiqo;
+    color: #dadada;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.container-checkbox{
+    margin: 3px;
+    cursor: pointer;
+}
+
+.container-checkbox input {
+    position: fixed;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+}
+
+.checkmark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #dadada;
+}
+  
+.container-checkbox input:checked ~ .checkmark, .container-checkbox input ~ .checkmark {
+    border: 2px;
+    background-color: #360854;
+    border: #dadada;
+}
+
+.checkmark:after {
+    content: "";
+    position: fixed;
+    display: none;
+}
+  
+  /* Show the checkmark when checked */
+.container-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  /* Style the checkmark/indicator */
+.container-checkbox .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@font-face {
+    font-family: Serifiqo;
+    src: url("src/Serifiqo\ 4F\ Free\ Capitals.otf") format('opentype')
+}
+
+@font-face {
+    font-family: Christmas-font;
+    src: url("src/ChristmasReignPersonal.ttf") format('opentype');
+}

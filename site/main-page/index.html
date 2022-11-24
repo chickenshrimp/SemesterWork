@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Официальный сайт Банка Северного Королевства</title>
+        <link rel="icon" href="src/mora-pic.webp">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body style="background-color: #0A0A0A; display: block;">
+        <a class="news" href="/news-page/index.html" style="text-decoration: none;">Новости</a>
+
+        <div class="bank-logo">
+            <div><img class="cryo-pic" src="src/cryo-pic.png"></div>
+            <div class="bank-name">Банкъ Северного<br>
+            Королевства<br></div>
+        </div>
+        
+        <div class="input-login-and-password" style="flex-direction: column; margin-top: 7%;">
+            <div class="input-text">ВАШ ЛОГИН</div>
+            <div class="input-placeholder"><input type="text" class="login"></div>
+            <div class="input-text">ПАРОЛЬ</div>
+            <div class="input-placeholder"><input type="password" class="pass"></div>
+            <div class="dont-forget"></div><label class="container-checkbox"><div class="input-text" style="font-size: 15px;">Запомнить меня</div>
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label></div>
+        </div>
+        <script type="module" src="/news-page/index.js"></script>
+        <script type="module">
+            import module from '/main-page/index.js';
+            module();
+        </script>
+    </body>
+</html>
